@@ -4,7 +4,7 @@ button - #805215
 Header Text - #553100
 Main background - #D4A76A*/
 
-header {
+#header {
   color: #553100;
   font: 2.0rem "Fira Sans", sans-serif;
   height: 20%;
@@ -16,20 +16,29 @@ body {
   background-color: #D4A76A;
 }
 
-#flights {
+.options {
   text-align: center;
+  font: 1.0rem "Fira Sans", sans-serif;
   width: 200px;
   height: 150px;
-  background-color: white
+  background-color: white;
+
 }
 
-#groupTrips {
-  width: 200px;
+#about {
+  text-align: center;
+  width: 750px;
   height: 150px;
   background-color: white;
 }
 
-button {
+.button {
   font: 1.0rem "Fira Sans", sans-serif;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-decoration: none;
+  text-align: center;
+  display: inline-block;
   background-color: #805215;
 }
