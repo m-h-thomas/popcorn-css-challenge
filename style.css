@@ -3,3 +3,33 @@ Header background - #FFDBAA
 button - #805215
 Header Text - #553100
 Main background - #D4A76A*/
+
+header {
+  color: #553100;
+  font: 2.0rem "Fira Sans", sans-serif;
+  height: 20%;
+  width: 100%;
+  background-color: #FFDBAA;
+}
+
+body {
+  background-color: #D4A76A;
+}
+
+#flights {
+  text-align: center;
+  width: 200px;
+  height: 150px;
+  background-color: white
+}
+
+#groupTrips {
+  width: 200px;
+  height: 150px;
+  background-color: white;
+}
+
+button {
+  font: 1.0rem "Fira Sans", sans-serif;
+  background-color: #805215;
+}
