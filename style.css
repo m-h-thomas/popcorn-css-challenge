@@ -17,20 +17,24 @@ body {
 }
 
 .options {
-  display: flex
   text-align: center;
-  font: 1.0rem "Fira Sans", sans-serif;
+  font: 1.25rem "Fira Sans", sans-serif;
   width: 200px;
-  height: 150px;
+  height: 250px;
   background-color: white;
-
+  padding: 15px 32px;
+  margin: 50px;
+  border: 5px solid black;
 }
 
-#about {
+.about {
   text-align: center;
   width: 750px;
-  height: 150px;
+  height: 200px;
   background-color: white;
+  padding: 15px 32px;
+  margin: 50px;
+  border: 5px solid black;
 }
 
 .button {
@@ -42,4 +46,3 @@ body {
   text-align: center;
   display: inline-block;
   background-color: #805215;
-}
